@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(168, 122, 109);
+}
+.small-container{
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex: 1;
+    
+    gap: 20%;
+    background-color: rgb(84, 4, 4);
+    border-radius: 20% 20px;
+}
+.small-container img{
+    border: 1px solid black;
+   height: 100%;
+   border-radius: 20% 20px;
+   margin-left: 50px;
+}
+.name-container{
+    margin-top: 100px;
+    color: white;
+    font-family:  "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;;
+}
+.about{
+    margin-top: 50px;
+    color: rgb(222, 206, 206);
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.984);
+   border-radius: 10% 10px;
+}
+.skills {
+  font-family: "Goldman", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.projects{
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.984);
+   border-radius: 10% 10px;
+   height: 200px;
+   width: 400px;
+   text-align: center;
+   padding-top: 20px;
+}
+.name:hover{
+    transition: .3s;
+    z-index: 5px;
+    transform:scale(1.2)
+}
+.projects:hover{
+    transition: .3s;
+    z-index: 5px;
+    transform:scale(1.1)
+
+}
